@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basket Ball Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="home-team">
+      <h1>Home</h1>
+      <h1 class="count" id="home-count">0</h1>
+      <button id="home-btn1" onclick="homeButton1()">+1</button>
+      <button id="home-btn2" onclick="homeButton2()">+2</button>
+      <button id="home-btn3" onclick="homeButton3()">+3</button>
+      <div class="saved-container">
+        <h3 class="saved-result">Saved Results: </h3>
+        <p id="saved-home" style="text-align:start ;">Home:</p>
+        <p id="saved-guest" style="text-align:start ;">Guest:</p>
+        <button id="save-btn" onclick="saveBtn()">Save</button>
+      </div>
+    </div>
+    <div class="guest-team">
+      <h1>Guest</h1>
+      <h1 class="count" id="guest-count">0</h1>
+      <button id="guest-btn1" onclick="guestButton1()">+1</button>
+      <button id="guest-btn2" onclick="guestButton2()">+2</button>
+      <button id="guest-btn3" onclick="guestButton3()">+3</button>
+      <div>
+        <button id="reset-btn" onclick="resetButton()">Reset Results</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

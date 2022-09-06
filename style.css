@@ -1,0 +1,86 @@
+@font-face {
+  font-family: CursedTimerULiL;
+  src: url(CursedTimerULiL.ttf);
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url(jason.jpg);
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  max-width: 90%;
+  justify-content: space-around;
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 8px;
+  min-height: auto;
+  background: #0284C7;
+  overflow: hidden;
+}
+
+h1 {
+  color: #fff;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 2.5rem;
+  margin: 20px;
+}
+
+.count {
+  color: #F94F6D;
+  background: #080001;
+  width: 12.5rem;
+  font-family: CursedTimerULiL;
+  padding: 50px 20px 50px 35px;
+  font-size: 5.5rem;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+button {
+  font-family: CursedTimerULiL;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 10px;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  margin-bottom: 70px;
+  width: 3.75rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #F94F6D;
+}
+
+.saved-container {
+  max-width: 12.5rem;
+  background-color: white;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0 0 2px red;
+  height: 150px;
+}
+
+p {
+  font-family: CursedTimerULiL;
+}
+
+#save-btn {
+  background-color: green;
+  border: 1px solid black;
+}
+
+#reset-btn {
+  width: 7.5rem;
+  background-color: yellowgreen;
+}
